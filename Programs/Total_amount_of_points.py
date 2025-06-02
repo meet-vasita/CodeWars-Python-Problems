@@ -19,7 +19,7 @@
 
 
 def points(games):
-    total = 0  # This will store the final score
+    total = 0 
 
     for game in games:
         my_team_score, opponent_team_score = int(game[0]),int(game[2])  
