@@ -20,3 +20,4 @@ def better_than_average(class_points,your_points):
         return False
 
 print(better_than_average([2,3],5))
+print(better_than_average([12, 23, 34, 45, 56, 67, 78, 89, 90], 69))
