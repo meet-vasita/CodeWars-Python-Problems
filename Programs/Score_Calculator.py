@@ -9,11 +9,14 @@
 
 # Your points are not included in the array of your class's points. Do not forget them when calculating the average score!
 
-def better_than_average(class_points):
-    for i in class_points:
-        print(i)
+def better_than_average(class_points,your_points):
+    total = sum(class_points)
+    average = len(class_points)
+    class_points = total / average
 
+    if class_points < your_points:
+        return True
+    else:
+        return False
 
-arr = better_than_average([1,2,3,4,5])
-
-print(arr)
+print(better_than_average([2,3],5))
