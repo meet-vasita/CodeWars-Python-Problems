@@ -10,3 +10,7 @@ def square_sum(numbers):
         
 
 print(square_sum([1,2,2]))
+
+#Much Better Code
+def square_sum(numbers):
+    return sum(x ** 2 for x in numbers)
